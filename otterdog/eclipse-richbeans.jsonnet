@@ -37,7 +37,6 @@ orgs.newOrg('science.richbeans', 'eclipse-richbeans') {
           required_approving_review_count: null,
           required_status_checks+: [
             "any:continuous-integration/travis-ci",
-            "any:eclipsefdn/eca"
           ],
           requires_pull_request: false,
         },
