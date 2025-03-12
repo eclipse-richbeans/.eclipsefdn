@@ -43,4 +43,9 @@ orgs.newOrg('science.richbeans', 'eclipse-richbeans') {
       ],
     },
   ],
+} + {
+  # snippet added due to 'https://github.com/EclipseFdn/otterdog-configs/blob/main/blueprints/add-dot-github-repo.yml'
+  _repositories+:: [
+    orgs.newRepo('.github')
+  ],
 }
